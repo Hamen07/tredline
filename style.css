@@ -133,6 +133,7 @@ span
     overflow-x: auto;
     object-position: top: ;
 }
+
 #image img
 {
     flex-shrink: 0;

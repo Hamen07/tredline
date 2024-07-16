@@ -1,76 +1,61 @@
-*
-{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Gilroy';
     box-sizing: border-box;
 }
 
-html, body
-{
-   height: 100%;
-   width: 100%;
-}
-
-#main
-{
+html, body {
     height: 100%;
     width: 100%;
-    
 }
-#nav
-{
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
     height: 8%;
-    width:100% ;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 30px;
 }
 
-#nav1
-{
+#nav1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1px;
 }
 
-.blackdot
-{
+.blackdot {
     height: 15px;
     width: 15px;
     background-color: black;
-    gap: 1px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;             
-    -o-border-radius: 50%;
 }
 
-#nav2
-{
+#nav2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 25px;
 }
-#nav2 h4
-{
+
+#nav2 h4 {
     font-size: 15px;
     font-weight: 500;
-    
 }
-span
-{
+
+span {
     opacity: 0.5;
     margin-left: 10px;
 }
 
-#main2
-{
-    /* background-color: blue; */
+#main2 {
     height: 6%;
     width: 100%;
     display: flex;
@@ -78,67 +63,58 @@ span
     gap: 70px;
     padding: 30px;
 }
-#main2 h3
-{
+
+#main2 h3 {
     font-size: 13px;
     font-weight: 600;
 }
 
-#content
-{
+#content {
     height: calc(100% - 8% - 6%);
     width: 100%;
-    /* background-color: aqua; */
-    
 }
-#text-content
-{
+
+#text-content {
     height: 45%;
     width: 100%;
-    /* background-color:yellow; */
     display: flex;
     overflow-x: auto;
 }
-#text-content::-webkit-scrollbar
-{
+
+#text-content::-webkit-scrollbar {
     background-color: transparent;
     height: 7px;
 }
-#text-content::-webkit-scrollbar-thumb
-{
+
+#text-content::-webkit-scrollbar-thumb {
     background-color: orangered;
 }
-.elem
-{
+
+.elem {
     flex-shrink: 0;
     width: 50%;
     height: 100%;
-    /* border: 2px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.elem h1
-{
+
+.elem h1 {
     font-weight: 300;
     font-size: 80px;
-    font-family: ;
-}
-#image
-{
-    height: calc(100% - 45%);
-    width: 100%;
-    
-    display: flex;
-    overflow-x: auto;
-    object-position: top: ;
 }
 
-#image img
-{
+#image {
+    height: calc(100% - 45%);
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+#image img {
     flex-shrink: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-position: 0% 0%;
+    object-position: 0% 40%;
 }
